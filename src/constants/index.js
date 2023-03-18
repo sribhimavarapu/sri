@@ -18,11 +18,14 @@ import {
     meta,
     starbucks,
     tesla,
+    dsquare,
     shopify,
+    pindexx,
     carrent,
     jobit,
     tripguide,
     threejs,
+    coverstack,
   } from "../assets";
   
   export const navLinks = [
@@ -42,16 +45,16 @@ import {
   
   const services = [
     {
+      title: "FrontEnd Developer",
+      icon: backend,
+    },
+    {
       title: "Web Developer",
       icon: web,
     },
     {
       title: "React Native Developer",
       icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
     },
     {
       title: "Content Creator",
@@ -108,65 +111,70 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend Developer",
+      company_name: "Coverstack Technologies",
+      icon: coverstack,
+      link: "https://www.coverstack.in/",
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Oct 2022 - present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on a end to end group insurance product for Flipkart company along with three other team members.",
+        "Developed reusable react components according to the designs provided by UI/UX Team.",
+        "Developed responsive and efficient UI, forms and dashboards on mordern JS libraries like React JS, Vue JS for insurance business.",
+        "Provide B2B solutions for many partners like Flipkart , ICICI Securities, Chkbook etc"
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "React JS Developer",
+      company_name: "Pindexx Enterprises Private Limited",
+      icon: pindexx,
+      link: "https://pindexx.com/home/",
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Feb 2020 - Sep 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "started as an intern and worked through my way to full time.",
+        "Developing and maintaining web applications using HTML5, React JS,Bootstrap, CSS3, JavaScript.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing responsive design and ensuring cross-browser compatibility. Worked on the mobile application using react native.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software Developer",
+      company_name: "D Square Tech Labs Pvt Ltd",
+      icon: dsquare,
+      link: "https://dsquarelabs.com/",
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2016 - June 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       " Developed SPA’s (single page application) using HTML, CSS, JavaScript & Bootstrap.",
+        "Involved in developing and designing pages, posts, forms for     websites using WORDPRESS.",
+        "Responsive design for both mobile and tablet screens, working knowledge on developing ecommerce websites using Shopify.",
+        "Involved in Agile methodologies and full software development   lifecycle of Designing, coding, testing, debugging and support."
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   link: "https://dsquarelabs.com/",
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -188,10 +196,10 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "After krishna optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Bhanu Prakash",
+      designation: "Owner",
+      company: "Organic Circuit",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
