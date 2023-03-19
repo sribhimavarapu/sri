@@ -11,7 +11,7 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <spotLight
         position={[-20, 50, 10]}
-        angle={0.12}
+        angle={0.22}
         penumbra={1}
         intensity={1}
         castShadow
@@ -19,8 +19,8 @@ const Computers = ({ isMobile }) => {
       />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -5, -2.2] : [0, -4.25, -1.5]}
+        scale={isMobile ? 0.4 : 0.75}
+        position={isMobile ? [2, -2, -2] : [0, -4.25, -1.5]}
         rotation={[-0.01, 0.2, -0.1]}
       />
     </mesh>
@@ -32,7 +32,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 600px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
@@ -54,7 +54,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      camera={{ position: [20, 5, 5], fov: 25 }}
+      camera={{ position: [20, 4, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>

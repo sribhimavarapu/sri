@@ -12,7 +12,7 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#00cea8]" />
-          <div className="w-1 sm:h-80 h-40 green-pink-gradient" />
+          <div className="w-1 sm:h-40 h-40 green-pink-gradient" />
         </div>
         <div>
           <h1 className={`${styles.heroHeadText}`}>
@@ -20,7 +20,6 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Web developer / Front end developer
-            <br className="xs:hidden" />
             {/* Developing micro-services, user interfaces */}
           </p>
         </div>
@@ -29,7 +28,7 @@ const Hero = () => {
       <ComputersCanvas />
       {/* scroll gif */}
 
-      <div className=" absolute bottom-5 w-full flex justify-center items-center">
+      <div className=" absolute bottom-16 md:bottom-5 lg:bottom-5 w-full flex justify-center items-center">
         <a href="#about">
           <div
             className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary
